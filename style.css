@@ -1,0 +1,77 @@
+body {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.5;
+    font: 16px;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+    background-color: #13293d;
+    color: #fff;
+  }
+  
+  main {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .container {
+    width: 70vh;
+  }
+  
+  .Aboutme h1 {
+    color: #13293d;
+  }
+  
+  
+   ul {
+   list-style: none;
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+   background-color: #333;
+  }
+  
+   li{
+  float: left;
+  }
+  
+  li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 74px 96px;
+    text-decoration: none;
+  }
+
+  .sideInfo {
+    justify-content:space-between;
+    width: 100%;
+  }
+  
+  .sideInfo p, .sideInfo .images{
+    width:  95%;
+  }
+  
+  .Aboutme, .work, .contactme {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 20px;
+    width: 500px;
+  }
+  
+  .Aboutme, .work, .contactme {
+    margin-top: 29px;
+  }
+  
+  hr {
+    border: 2px solid #13293d;
+  }
+  
+  
+  .work h1 {margin-right: 23.5px;}
